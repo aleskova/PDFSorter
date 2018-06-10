@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (AdobeColors)
-
+/* Extends UIColor to hold Adobe Colors. */
+@interface UIColor (CustomColorCatagory)
++ (UIColor *)AdobeBlue;
 @end

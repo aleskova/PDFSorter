@@ -1,0 +1,3110 @@
+2018-06-07 07:25:09 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f89569543f0; archive(resolved)='<IDEArchive: 0x7f8959ad4080>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f89569543f0; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f8957fcc560; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f89591c1ca0; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f8959fea1d0; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f8959c32050; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f8959a65c30; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f8959db8470; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f8957c2ab30; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f8956bc2bf0; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='<IDEProvisioningBasicTeam: 0x7f895a8811d0; teamID='A35BTEKDJ3', teamName='Kevin Bunarjo'>'>
+	<IDEDistributionContext: 0x7f8959bab540; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f894dd7a2d0>', team='(null)'>
+	<IDEDistributionContext: 0x7f89592ec4f0; archive = '<IDEArchive: 0x7f8959ad4080>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f89569543f0>
+2018-06-07 07:25:09 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-06-07 07:25:09 +0000  Processing step: IDEDistributionCopyItemStep
+2018-06-07 07:25:09 +0000  Running /usr/bin/ditto '-V' '/Users/anna/Library/Developer/Xcode/Archives/2018-06-07/PDFSorter 6-7-18, 12.23 AM.xcarchive/Products/Applications/PDFSorter.app' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app'
+2018-06-07 07:25:09 +0000  >>> Copying /Users/anna/Library/Developer/Xcode/Archives/2018-06-07/PDFSorter 6-7-18, 12.23 AM.xcarchive/Products/Applications/PDFSorter.app 
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/de.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  7558 bytes for ./HockeySDKResources.bundle/de.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/authorize_denied@2x.png ... 
+2018-06-07 07:25:09 +0000  3139 bytes for ./HockeySDKResources.bundle/authorize_denied@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  5215 bytes for ./HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/ja.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  5902 bytes for ./HockeySDKResources.bundle/ja.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/buttonRoundedDelete.png ... 
+2018-06-07 07:25:09 +0000  690 bytes for ./HockeySDKResources.bundle/buttonRoundedDelete.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/fa.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  157 bytes for ./HockeySDKResources.bundle/fa.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png ... 
+2018-06-07 07:25:09 +0000  1675 bytes for ./HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/buttonRoundedRegular@2x.png ... 
+2018-06-07 07:25:09 +0000  835 bytes for ./HockeySDKResources.bundle/buttonRoundedRegular@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/buttonRoundedDelete@2x.png ... 
+2018-06-07 07:25:09 +0000  1247 bytes for ./HockeySDKResources.bundle/buttonRoundedDelete@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/en.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  5740 bytes for ./HockeySDKResources.bundle/en.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Rectangle@2x.png ... 
+2018-06-07 07:25:09 +0000  284 bytes for ./HockeySDKResources.bundle/Rectangle@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Ok.png ... 
+2018-06-07 07:25:09 +0000  151 bytes for ./HockeySDKResources.bundle/Ok.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Rectangle@3x.png ... 
+2018-06-07 07:25:09 +0000  404 bytes for ./HockeySDKResources.bundle/Rectangle@3x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/feedbackActivity@2x~ipad.png ... 
+2018-06-07 07:25:09 +0000  1790 bytes for ./HockeySDKResources.bundle/feedbackActivity@2x~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png ... 
+2018-06-07 07:25:09 +0000  794 bytes for ./HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/nb.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  6964 bytes for ./HockeySDKResources.bundle/nb.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/es.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  7732 bytes for ./HockeySDKResources.bundle/es.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/authorize_denied@3x.png ... 
+2018-06-07 07:25:09 +0000  4657 bytes for ./HockeySDKResources.bundle/authorize_denied@3x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/it.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  6473 bytes for ./HockeySDKResources.bundle/it.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Ok@2x.png ... 
+2018-06-07 07:25:09 +0000  301 bytes for ./HockeySDKResources.bundle/Ok@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png ... 
+2018-06-07 07:25:09 +0000  1027 bytes for ./HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Cancel@3x.png ... 
+2018-06-07 07:25:09 +0000  319 bytes for ./HockeySDKResources.bundle/Cancel@3x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/AppIconPlaceHolder.png ... 
+2018-06-07 07:25:09 +0000  10035 bytes for ./HockeySDKResources.bundle/AppIconPlaceHolder.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Cancel.png ... 
+2018-06-07 07:25:09 +0000  122 bytes for ./HockeySDKResources.bundle/Cancel.png
+copying file ./HockeySDKResources.bundle/Arrow@2x.png ... 
+2018-06-07 07:25:09 +0000  542 bytes for ./HockeySDKResources.bundle/Arrow@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Blur.png ... 
+2018-06-07 07:25:09 +0000  114 bytes for ./HockeySDKResources.bundle/Blur.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Rectangle.png ... 
+2018-06-07 07:25:09 +0000  127 bytes for ./HockeySDKResources.bundle/Rectangle.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/iconCamera@2x.png ... 
+2018-06-07 07:25:09 +0000  375 bytes for ./HockeySDKResources.bundle/iconCamera@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Arrow.png ... 
+2018-06-07 07:25:09 +0000  240 bytes for ./HockeySDKResources.bundle/Arrow.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Arrow@3x.png ... 
+2018-06-07 07:25:09 +0000  709 bytes for ./HockeySDKResources.bundle/Arrow@3x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Cancel@2x.png ... 
+2018-06-07 07:25:09 +0000  237 bytes for ./HockeySDKResources.bundle/Cancel@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Ok@3x.png ... 
+2018-06-07 07:25:09 +0000  382 bytes for ./HockeySDKResources.bundle/Ok@3x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/feedbackActivity~ipad.png ... 
+2018-06-07 07:25:09 +0000  1065 bytes for ./HockeySDKResources.bundle/feedbackActivity~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/hu.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  8591 bytes for ./HockeySDKResources.bundle/hu.lproj/HockeySDK.strings
+copying file ./HockeySDKResources.bundle/IconGradient.png ... 
+2018-06-07 07:25:09 +0000  896 bytes for ./HockeySDKResources.bundle/IconGradient.png
+copying file ./HockeySDKResources.bundle/feedbackActivity@2x.png ... 
+2018-06-07 07:25:09 +0000  969 bytes for ./HockeySDKResources.bundle/feedbackActivity@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/feedbackActivity.png ... 
+2018-06-07 07:25:09 +0000  334 bytes for ./HockeySDKResources.bundle/feedbackActivity.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/tr.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  7710 bytes for ./HockeySDKResources.bundle/tr.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Blur@3x.png ... 
+2018-06-07 07:25:09 +0000  256 bytes for ./HockeySDKResources.bundle/Blur@3x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Blur@2x.png ... 
+2018-06-07 07:25:09 +0000  135 bytes for ./HockeySDKResources.bundle/Blur@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/feedbackActivity@3x.png ... 
+2018-06-07 07:25:09 +0000  1327 bytes for ./HockeySDKResources.bundle/feedbackActivity@3x.png
+copying file ./HockeySDKResources.bundle/buttonRoundedRegular.png ... 
+2018-06-07 07:25:09 +0000  462 bytes for ./HockeySDKResources.bundle/buttonRoundedRegular.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png ... 
+2018-06-07 07:25:09 +0000  1530 bytes for ./HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/ru.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  7901 bytes for ./HockeySDKResources.bundle/ru.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/fr.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  8127 bytes for ./HockeySDKResources.bundle/fr.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/FeedbackPlaceholder.png ... 
+2018-06-07 07:25:09 +0000  11196 bytes for ./HockeySDKResources.bundle/FeedbackPlaceholder.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/nl.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  6236 bytes for ./HockeySDKResources.bundle/nl.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/pt.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  7306 bytes for ./HockeySDKResources.bundle/pt.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  7799 bytes for ./HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/Info.plist ... 
+2018-06-07 07:25:09 +0000  898 bytes for ./HockeySDKResources.bundle/Info.plist
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/iconCamera.png ... 
+2018-06-07 07:25:09 +0000  264 bytes for ./HockeySDKResources.bundle/iconCamera.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/hr.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:09 +0000  7826 bytes for ./HockeySDKResources.bundle/hr.lproj/HockeySDK.strings
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/IconGradient@2x.png ... 
+2018-06-07 07:25:09 +0000  1489 bytes for ./HockeySDKResources.bundle/IconGradient@2x.png
+copying file ./HockeySDKResources.bundle/bg.png ... 
+2018-06-07 07:25:09 +0000  499 bytes for ./HockeySDKResources.bundle/bg.png
+2018-06-07 07:25:09 +0000  copying file ./HockeySDKResources.bundle/authorize_denied.png ... 
+2018-06-07 07:25:09 +0000  1625 bytes for ./HockeySDKResources.bundle/authorize_denied.png
+2018-06-07 07:25:09 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-06-07 07:25:09 +0000  34017 bytes for ./_CodeSignature/CodeResources
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-1100-Portrait-2436h@3x.png ... 
+2018-06-07 07:25:09 +0000  250577 bytes for ./LaunchImage-1100-Portrait-2436h@3x.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage@2x.png ... 
+2018-06-07 07:25:09 +0000  62484 bytes for ./LaunchImage@2x.png
+copying file ./LaunchImage-568h@2x.png ... 
+2018-06-07 07:25:09 +0000  64613 bytes for ./LaunchImage-568h@2x.png
+2018-06-07 07:25:09 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-06-07 07:25:09 +0000  11287 bytes for ./AppIcon60x60@2x.png
+copying file ./adobe.jpeg ... 
+2018-06-07 07:25:09 +0000  138864 bytes for ./adobe.jpeg
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-1100-Landscape-2436h@3x.png ... 
+2018-06-07 07:25:09 +0000  292483 bytes for ./LaunchImage-1100-Landscape-2436h@3x.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-800-667h@2x.png ... 
+2018-06-07 07:25:09 +0000  87518 bytes for ./LaunchImage-800-667h@2x.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-Portrait@2x~ipad.png ... 
+2018-06-07 07:25:09 +0000  301122 bytes for ./LaunchImage-Portrait@2x~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-Portrait~ipad.png ... 
+2018-06-07 07:25:09 +0000  88193 bytes for ./LaunchImage-Portrait~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-06-07 07:25:09 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-06-07 07:25:09 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-06-07 07:25:09 +0000  1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-06-07 07:25:09 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-06-07 07:25:09 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-06-07 07:25:09 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-06-07 07:25:09 +0000  1247 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-06-07 07:25:09 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-06-07 07:25:09 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-06-07 07:25:09 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-06-07 07:25:09 +0000  copying file ./PDFSorter.momd/VersionInfo.plist ... 
+2018-06-07 07:25:09 +0000  155 bytes for ./PDFSorter.momd/VersionInfo.plist
+2018-06-07 07:25:09 +0000  copying file ./PDFSorter.momd/PDFSorter.omo ... 
+2018-06-07 07:25:09 +0000  696 bytes for ./PDFSorter.momd/PDFSorter.omo
+2018-06-07 07:25:09 +0000  copying file ./PDFSorter.momd/PDFSorter.mom ... 
+2018-06-07 07:25:09 +0000  513 bytes for ./PDFSorter.momd/PDFSorter.mom
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-Landscape~ipad.png ... 
+2018-06-07 07:25:09 +0000  91946 bytes for ./LaunchImage-Landscape~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-700-Portrait~ipad.png ... 
+2018-06-07 07:25:09 +0000  88193 bytes for ./LaunchImage-700-Portrait~ipad.png
+copying file ./Assets.car ... 
+2018-06-07 07:25:09 +0000  559752 bytes for ./Assets.car
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2018-06-07 07:25:09 +0000  16529 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./LaunchImage-800-Portrait-736h@3x.png ... 
+2018-06-07 07:25:09 +0000  197435 bytes for ./LaunchImage-800-Portrait-736h@3x.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-700@2x.png ... 
+2018-06-07 07:25:09 +0000  62484 bytes for ./LaunchImage-700@2x.png
+copying file ./LaunchImage-700-568h@2x.png ... 
+2018-06-07 07:25:09 +0000  64613 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./LaunchImage-Landscape@2x~ipad.png ... 
+2018-06-07 07:25:09 +0000  323752 bytes for ./LaunchImage-Landscape@2x~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./acrobat.png ... 
+2018-06-07 07:25:09 +0000  2567 bytes for ./acrobat.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-700-Landscape@2x~ipad.png ... 
+2018-06-07 07:25:09 +0000  323752 bytes for ./LaunchImage-700-Landscape@2x~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage.png ... 
+2018-06-07 07:25:09 +0000  18316 bytes for ./LaunchImage.png
+copying file ./embedded.mobileprovision ... 
+2018-06-07 07:25:09 +0000  9550 bytes for ./embedded.mobileprovision
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-800-Landscape-736h@3x.png ... 
+2018-06-07 07:25:09 +0000  218997 bytes for ./LaunchImage-800-Landscape-736h@3x.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-700-Portrait@2x~ipad.png ... 
+2018-06-07 07:25:09 +0000  301122 bytes for ./LaunchImage-700-Portrait@2x~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./LaunchImage-700-Landscape~ipad.png ... 
+2018-06-07 07:25:09 +0000  91946 bytes for ./LaunchImage-700-Landscape~ipad.png
+2018-06-07 07:25:09 +0000  copying file ./PDFSorter ... 
+2018-06-07 07:25:09 +0000  4163120 bytes for ./PDFSorter
+2018-06-07 07:25:09 +0000  2018-06-07 07:25:09 +0000  /usr/bin/ditto exited with 0
+
+2018-06-07 07:25:09 +0000  copying file ./Info.plist ... 
+1916 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2018-06-07 07:25:09 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-06-07 07:25:09 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-06-07 07:25:09 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-06-07 07:25:09 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-06-07 07:25:09 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root' '--json' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool-json-filepath-9Zl17l' '--compile-bitcode' '--output' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/IDEIPAProcessor.AppThinning.Rpo' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-06-07 07:25:09 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2018-06-07 07:25:09 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:98: warning: assigned but unused variable - temp
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:109: warning: assigned but unused variable - e
+2018-06-07 07:25:09 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-06-07 07:25:09 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-06-07 07:25:09 +0000  OS X 10.13.4 17E199
+2018-06-07 07:25:09 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/", "LOGNAME"=>"anna", "HOME"=>"/Users/anna", "XPC_FLAGS"=>"0x0", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.cjrFaKl5qY/Render", "USER"=>"anna", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.Vm6T3D6Lnd/Listeners", "DISPLAY"=>"/private/tmp/com.apple.launchd.UkbuzdTriW/org.macosforge.xquartz:0", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.23000", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x0:0x0", "CA_DEBUG_TRANSACTIONS"=>"1"}
+ARGV: ["/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root", "--json", "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool-json-filepath-9Zl17l", "--compile-bitcode", "--output", "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/IDEIPAProcessor.AppThinning.Rpo", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-06-07 07:25:09 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-06-07 07:25:09 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-06-07 07:25:09 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-06-07 07:25:09 +0000  Scanning IPA...
+2018-06-07 07:25:09 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/AppIcon60x60@2x.png
+2018-06-07 07:25:09 +0000      /usr/bin/file exited with pid 60914 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:09 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/AppIcon76x76@2x\~ipad.png
+2018-06-07 07:25:09 +0000      /usr/bin/file exited with pid 60915 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:09 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Assets.car
+2018-06-07 07:25:09 +0000      /usr/bin/file exited with pid 60916 exit 0
+    Stdout:
+        Mac OS X bill of materials (BOM) file
+    
+    Stderr:
+2018-06-07 07:25:09 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-06-07 07:25:09 +0000      /usr/bin/file exited with pid 60918 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-06-07 07:25:09 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60919 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60920 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60922 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Base.lproj/Main.storyboardc/Info.plist
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60923 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60924 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/AppIconPlaceHolder.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60926 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60927 exit 0
+    Stdout:
+        PNG image data, 26 x 15, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60928 exit 0
+    Stdout:
+        PNG image data, 52 x 30, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60929 exit 0
+    Stdout:
+        PNG image data, 78 x 45, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Blur.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60930 exit 0
+    Stdout:
+        PNG image data, 23 x 15, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Blur@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60931 exit 0
+    Stdout:
+        PNG image data, 46 x 30, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Blur@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60932 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60933 exit 0
+    Stdout:
+        PNG image data, 14 x 14, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60934 exit 0
+    Stdout:
+        PNG image data, 28 x 28, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60935 exit 0
+    Stdout:
+        PNG image data, 42 x 42, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/FeedbackPlaceholder.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60936 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/IconGradient.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60937 exit 0
+    Stdout:
+        PNG image data, 57 x 57, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/IconGradient@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60938 exit 0
+    Stdout:
+        PNG image data, 114 x 114, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Info.plist
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60939 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Ok.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60940 exit 0
+    Stdout:
+        PNG image data, 16 x 14, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Ok@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60941 exit 0
+    Stdout:
+        PNG image data, 32 x 28, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Ok@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60942 exit 0
+    Stdout:
+        PNG image data, 48 x 42, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60943 exit 0
+    Stdout:
+        PNG image data, 23 x 15, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60944 exit 0
+    Stdout:
+        PNG image data, 46 x 30, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60945 exit 0
+    Stdout:
+        PNG image data, 69 x 45, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60946 exit 0
+    Stdout:
+        PNG image data, 112 x 123, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60947 exit 0
+    Stdout:
+        PNG image data, 224 x 246, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60948 exit 0
+    Stdout:
+        PNG image data, 336 x 369, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/bg.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60949 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDelete.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60950 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDelete@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60951 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60952 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60953 exit 0
+    Stdout:
+        PNG image data, 42 x 86, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegular.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60954 exit 0
+    Stdout:
+        PNG image data, 22 x 43, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegular@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60955 exit 0
+    Stdout:
+        PNG image data, 42 x 86, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60956 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60957 exit 0
+    Stdout:
+        PNG image data, 42 x 86, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/de.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60958 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/en.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60959 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/es.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60960 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/fa.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60961 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60962 exit 0
+    Stdout:
+        PNG image data, 40 x 33, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60963 exit 0
+    Stdout:
+        PNG image data, 80 x 66, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@2x\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60964 exit 0
+    Stdout:
+        PNG image data, 100 x 85, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60965 exit 0
+    Stdout:
+        PNG image data, 120 x 99, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60966 exit 0
+    Stdout:
+        PNG image data, 50 x 43, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60967 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60968 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60969 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/iconCamera.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60970 exit 0
+    Stdout:
+        PNG image data, 24 x 18, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/iconCamera@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60971 exit 0
+    Stdout:
+        PNG image data, 47 x 36, 8-bit gray+alpha, non-interlaced
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/it.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60972 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60973 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/nb.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60974 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/nl.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60975 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60976 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60977 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60978 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/tr.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60979 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60980 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Info.plist
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60981 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-1100-Landscape-2436h@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60982 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-1100-Portrait-2436h@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60983 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-568h@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60984 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-700-568h@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60985 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-700-Landscape@2x\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60986 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-700-Landscape\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60987 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-700-Portrait@2x\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60988 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-700-Portrait\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60989 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-700@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60990 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-800-667h@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60991 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-800-Landscape-736h@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60992 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-800-Portrait-736h@3x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60993 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-Landscape@2x\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60994 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-Landscape\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60995 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-Portrait@2x\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60996 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage-Portrait\~ipad.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60997 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60998 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/LaunchImage@2x.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 60999 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61000 exit 0
+    Stdout:
+        Mach-O 64-bit executable arm64
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter
+2018-06-07 07:25:10 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 61001 exit 0
+    Stdout:
+        Non-fat file: /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter is architecture: arm64
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter
+2018-06-07 07:25:10 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 61002 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    30       4264   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter
+2018-06-07 07:25:10 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 61004 exit 0
+    Stdout:
+        /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    30       4264   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+        Load command 0
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 1
+              cmd LC_SEGMENT_64
+          cmdsize 1192
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000084000
+          fileoff 0
+         filesize 540672
+          maxprot r-x
+         initprot r-x
+           nsects 14
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x0000000100007dc4
+              size 0x000000000005dd20
+            offset 32196
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x0000000100065ae4
+              size 0x0000000000000c6c
+            offset 416484
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x0000000100066750
+              size 0x0000000000000a8c
+            offset 419664
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x00000001000671dc
+              size 0x000000000000a1fd
+            offset 422364
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x00000001000713d9
+              size 0x00000000000006d4
+            offset 463833
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x0000000100071aad
+              size 0x0000000000002931
+            offset 465581
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x00000001000743de
+              size 0x000000000000bfb1
+            offset 476126
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __TEXT
+              addr 0x0000000100080390
+              size 0x00000000000008e8
+            offset 525200
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+   
+2018-06-07 07:25:10 +0000             addr 0x0000000100080c78
+              size 0x0000000000000012
+            offset 527480
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __gcc_except_tab
+           segname __TEXT
+              addr 0x0000000100080c8c
+              size 0x0000000000001ec0
+            offset 527500
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bit_hockey
+           segname __TEXT
+              addr 0x0000000100082b4c
+              size 0x0000000000000021
+            offset 535372
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bit_ios
+           segname __TEXT
+              addr 0x0000000100082b6d
+              size 0x0000000000000021
+            offset 535405
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x0000000100082b90
+              size 0x0000000000001438
+            offset 535440
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __eh_frame
+           segname __TEXT
+              addr 0x0000000100083fc8
+              size 0x0000000000000034
+            offset 540616
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 1512
+          segname __DATA
+           vmaddr 0x0000000100084000
+           vmsize 0x0000000000024000
+          fileoff 540672
+         filesize 147456
+          maxprot rw-
+         initprot rw-
+           nsects 18
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100084000
+              size 0x0000000000000220
+            offset 540672
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 265 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100084220
+              size 0x0000000000000848
+            offset 541216
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 333 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __mod_init_func
+           segname __DATA
+              addr 0x0000000100084a68
+              size 0x0000000000000018
+            offset 543336
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_MOD_INIT_FUNC_POINTERS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __DATA
+              addr 0x0000000100084a80
+              size 0x0000000000005c40
+            offset 543360
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x000000010008a6c0
+              size 0x0000000000005f60
+            offset 566976
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+   
+2018-06-07 07:25:10 +0000        reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000000100090620
+              size 0x0000000000000220
+            offset 591392
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_catlist
+           segname __DATA
+              addr 0x0000000100090840
+              size 0x0000000000000010
+            offset 591936
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000000100090850
+              size 0x0000000000000058
+            offset 591952
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x00000001000908a8
+              size 0x0000000000000008
+            offset 592040
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x00000001000908b0
+              size 0x0000000000010c48
+            offset 592048
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x00000001000a14f8
+              size 0x0000000000002848
+            offset 660728
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x00000001000a3d40
+              size 0x0000000000000408
+            offset 671040
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x00000001000a4148
+              size 0x00000000000001e0
+            offset 672072
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x00000001000a4328
+              size 0x000000000000066c
+            offset 672552
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x00000001000a4998
+              size 0x0000000000001540
+            offset 674200
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x00000001000a5ee0
+              size 0x0000000000000580
+            offset 679648
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x00000001000a6460
+              size 0x0000000000000028
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type 
+2018-06-07 07:25:10 +0000  S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x00000001000a6488
+              size 0x0000000000000351
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 152
+          segname __LLVM
+           vmaddr 0x00000001000a8000
+           vmsize 0x0000000000334000
+          fileoff 688128
+         filesize 3358720
+          maxprot rw-
+         initprot rw-
+           nsects 1
+            flags NORELOC
+        Section
+          sectname __bundle
+           segname __LLVM
+              addr 0x00000001000a8000
+              size 0x0000000000330b2c
+            offset 688128
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x00000001003dc000
+           vmsize 0x0000000000020000
+          fileoff 4046848
+         filesize 116272
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 5
+                    cmd LC_DYLD_INFO_ONLY
+                cmdsize 48
+             rebase_off 4046848
+            rebase_size 3608
+               bind_off 4050456
+              bind_size 5336
+          weak_bind_off 4055792
+         weak_bind_size 4080
+          lazy_bind_off 4059872
+         lazy_bind_size 5896
+             export_off 4065768
+            export_size 10728
+        Load command 6
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 4079632
+           nsyms 412
+          stroff 4088616
+         strsize 12200
+        Load command 7
+                    cmd LC_DYSYMTAB
+                cmdsize 80
+              ilocalsym 0
+              nlocalsym 1
+             iextdefsym 1
+             nextdefsym 41
+              iundefsym 42
+              nundefsym 370
+                 tocoff 0
+                   ntoc 0
+              modtaboff 0
+                nmodtab 0
+           extrefsymoff 0
+            nextrefsyms 0
+         indirectsymoff 4086224
+          nindirectsyms 598
+              extreloff 0
+                nextrel 0
+              locreloff 0
+                nlocrel 0
+        Load command 8
+                  cmd LC_LOAD_DYLINKER
+              cmdsize 32
+                 name /usr/lib/dyld (offset 12)
+        Load command 9
+             cmd LC_UUID
+         cmdsize 24
+            uuid 175B54C6-40F6-3ED3-B0C3-C8F046750E42
+        Load command 10
+              cmd LC_VERSION_MIN_IPHONEOS
+          cmdsize 16
+          version 11.0
+              sdk 11.4
+        Load command 11
+              cmd LC_SOURCE_VERSION
+          cmdsize 16
+          version 0.0
+        Load command 12
+               cmd LC_MAIN
+           cmdsize 24
+          entryoff 49484
+         stacksize 0
+        Load command 13
+                  cmd LC_ENCRYPTION_INFO_64
+              cmdsize 24
+             cryptoff 16384
+            cryptsize 524288
+              cryptid 0
+                  pad 0
+        Load command 14
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/Foundation.framework/Foundation (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 1452.23.0
+        compatibility version 300.0.0
+        Load command 15
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libobjc.A.dylib (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 228.0.0
+        compatibility version 1.0.0
+        Load command 16
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libSystem.B.dylib (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+       
+2018-06-07 07:25:10 +0000         current version 1252.50.4
+        compatibility version 1.0.0
+        Load command 17
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/CoreData.framework/CoreData (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 851.0.0
+        compatibility version 1.0.0
+        Load command 18
+                  cmd LC_LOAD_DYLIB
+              cmdsize 96
+                 name /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 1452.23.0
+        compatibility version 150.0.0
+        Load command 19
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 1161.21.0
+        compatibility version 64.0.0
+        Load command 20
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/PDFKit.framework/PDFKit (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 21
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/QuartzCore.framework/QuartzCore (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 1.11.0
+        compatibility version 1.2.0
+        Load command 22
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/Security.framework/Security (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 58286.60.28
+        compatibility version 1.0.0
+        Load command 23
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/UIKit.framework/UIKit (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 3698.54.4
+        compatibility version 1.0.0
+        Load command 24
+                  cmd LC_LOAD_DYLIB
+              cmdsize 48
+                 name /usr/lib/libc++.1.dylib (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 400.9.1
+        compatibility version 1.0.0
+        Load command 25
+                  cmd LC_LOAD_DYLIB
+              cmdsize 48
+                 name /usr/lib/libz.1.dylib (offset 24)
+           time stamp 2 Wed Dec 31 16:00:02 1969
+              current version 1.2.11
+        compatibility version 1.0.0
+        Load command 26
+                  cmd LC_RPATH
+              cmdsize 40
+                 path @executable_path/Frameworks (offset 12)
+        Load command 27
+              cmd LC_FUNCTION_STARTS
+          cmdsize 16
+          dataoff 4076496
+         datasize 2936
+        Load command 28
+              cmd LC_DATA_IN_CODE
+          cmdsize 16
+          dataoff 4079432
+         datasize 200
+        Load command 29
+              cmd LC_CODE_SIGNATURE
+          cmdsize 16
+          dataoff 4100816
+         datasize 62304
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter.momd/PDFSorter.mom
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61006 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter.momd/PDFSorter.omo
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61007 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PDFSorter.momd/VersionInfo.plist
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61008 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/PkgInfo
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61009 exit 0
+    Stdout:
+        ASCII text, with no line terminators
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/_CodeSignature/CodeResources
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61010 exit 0
+    Stdout:
+        XML 1.0 document text, ASCII text
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/acrobat.png
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61011 exit 0
+    Stdout:
+        PNG image data, 1342185474 x 735425407, 0-bit grayscale,
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/adobe.jpeg
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61012 exit 0
+    Stdout:
+        JPEG image data, JFIF standard 1.01, aspect ratio, density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=6, orientation=upper-left, xresolution=86, yresolution=94], progressive, precision 8, 1536x1536, frames 3
+    
+    Stderr:
+2018-06-07 07:25:10 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/embedded.mobileprovision
+2018-06-07 07:25:10 +0000      /usr/bin/file exited with pid 61013 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-06-07 07:25:11 +0000  Complete LinkageGraph:
+    PDFSorter.app/PDFSorter arm64 ->
+2018-06-07 07:25:11 +0000  Validating IPA structure...
+2018-06-07 07:25:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter --generate-dsym /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM --strip-swift-symbols /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter
+2018-06-07 07:25:12 +0000  Compiling bitcode...
+  Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'PDFSorter'
+2018-06-07 07:25:18 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 61195 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter" 
+        -= Output =-
+        Non-fat file: /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter" 
+        -= Output =-
+        UUID: 175B54C6-40F6-3ED3-B0C3-C8F046750E42 (arm64) /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter" "-extract" "__LLVM" "__bundle" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/PDFSorterYPG5yk/PDFSorter.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "001" "-o" "001.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "002" "-o" "002.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "003" "-o" "003.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" 
+2018-06-07 07:25:18 +0000  "darwinpcs" "-Os" "-x" "ir" "004" "-o" "004.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "005" "-o" "005.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "006" "-o" "006.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "007" "-o" "007.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "008" "-o" "008.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "009" "-o" "009.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "010" "-o" "010.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "011" "-o" "011.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "012" "-o" "012.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "013" "-o" "013.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "
+2018-06-07 07:25:18 +0000  -Os" "-x" "ir" "014" "-o" "014.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "015" "-o" "015.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "016" "-o" "016.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "017" "-o" "017.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "018" "-o" "018.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "019" "-o" "019.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "020" "-o" "020.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "021" "-o" "021.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "022" "-o" "022.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "023" "-o" "023.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "
+2018-06-07 07:25:18 +0000  024" "-o" "024.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "025" "-o" "025.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "026" "-o" "026.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "027" "-o" "027.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "028" "-o" "028.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "029" "-o" "029.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "030" "-o" "030.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "031" "-o" "031.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "032" "-o" "032.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "033" "-o" "033.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "034" "-o" "034.o
+2018-06-07 07:25:18 +0000  " 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "035" "-o" "035.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "036" "-o" "036.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "037" "-o" "037.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "038" "-o" "038.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "039" "-o" "039.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "040" "-o" "040.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "041" "-o" "041.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "042" "-o" "042.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "043" "-o" "043.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "044" "-o" "044.o" 
+        -= Ou
+2018-06-07 07:25:18 +0000  tput =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "045" "-o" "045.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "046" "-o" "046.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "047" "-o" "047.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "048" "-o" "048.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "049" "-o" "049.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "050" "-o" "050.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "051" "-o" "051.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "052" "-o" "052.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "053" "-o" "053.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "054" "-o" "054.o" 
+        -= Output =-
+        
+2018-06-07 07:25:18 +0000  Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "055" "-o" "055.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "056" "-o" "056.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "057" "-o" "057.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "058" "-o" "058.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "059" "-o" "059.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "060" "-o" "060.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "061" "-o" "061.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "062" "-o" "062.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "063" "-o" "063.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "064" "-o" "064.o" 
+        -= Output =-
+        Exited with 0
+  
+2018-06-07 07:25:18 +0000        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "065" "-o" "065.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "066" "-o" "066.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "067" "-o" "067.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "068" "-o" "068.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "069" "-o" "069.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "070" "-o" "070.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "071" "-o" "071.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "073" "-o" "073.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "074" "-o" "074.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "075" "-o" "075.o" 
+        -= Output =-
+        Exited with 0
+        
+        D
+2018-06-07 07:25:18 +0000  ebug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "076" "-o" "076.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "077" "-o" "077.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "078" "-o" "078.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "079" "-o" "079.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "080" "-o" "080.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "081" "-o" "081.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "082" "-o" "082.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "083" "-o" "083.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "084" "-o" "084.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "085" "-o" "085.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command to
+2018-06-07 07:25:18 +0000  ok 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "086" "-o" "086.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "087" "-o" "087.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "088" "-o" "088.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "089" "-o" "089.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "090" "-o" "090.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "091" "-o" "091.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "092" "-o" "092.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "093" "-o" "093.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "094" "-o" "094.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "095" "-o" "095.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+   
+2018-06-07 07:25:18 +0000       Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "096" "-o" "096.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "097" "-o" "097.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "098" "-o" "098.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "099" "-o" "099.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "100" "-o" "100.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "101" "-o" "101.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "102" "-o" "102.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-optzns" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "103" "-o" "103.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        CopyFile: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/usr/bin/ditto" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6/072" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6/072.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.s
+2018-06-07 07:25:18 +0000  dk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreData.framework/CoreData.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/PDFKit.framework/PDFKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Security.framework/Security.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libc++.1.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libz.1.tbd
+        Ld: cd /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/tempq59Jk6
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "11.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/anna/Library/Developer/Xcode/DerivedData/PDFSorter-ftwqamtqsempqbhcjvztmmhznibl/Build/Intermediates.noindex/ArchiveIntermediates/PDFSorter/InstallationBuildProductsLocation/Applications/PDFSorter.app/PDFSorter" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/PDFSorterYPG5yk/PDFSorter.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreData.framework/CoreData.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/PDFKit.framework/PDFKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Devel
+2018-06-07 07:25:18 +0000  oper/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Security.framework/Security.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libc++.1.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libz.1.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/PDFSorterYPG5yk/PDFSorter.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter" 
+        -= Output =-
+        UUID: C4BC3D67-1BE5-3E01-BDD4-706E839D2EC3 (arm64) /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter" "-o" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter
+2018-06-07 07:25:18 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 61314 exit 0
+    Stdout:
+        /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter [arm64, 0.026308 seconds]:
+    
+    Stderr:
+2018-06-07 07:25:18 +0000  /usr/bin/file -b -- /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM/Contents/Resources/DWARF/PDFSorter
+2018-06-07 07:25:18 +0000      /usr/bin/file exited with pid 61315 exit 0
+    Stdout:
+        Mach-O 64-bit dSYM companion file arm64
+    
+    Stderr:
+2018-06-07 07:25:18 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM/Contents/Resources/DWARF/PDFSorter
+2018-06-07 07:25:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 61316 exit 0
+    Stdout:
+        Non-fat file: /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM/Contents/Resources/DWARF/PDFSorter is architecture: arm64
+    
+    Stderr:
+2018-06-07 07:25:18 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM/Contents/Resources/DWARF/PDFSorter
+2018-06-07 07:25:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 61317 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3848 0x00000000
+    
+    Stderr:
+2018-06-07 07:25:18 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM/Contents/Resources/DWARF/PDFSorter
+2018-06-07 07:25:18 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 61319 exit 0
+    Stdout:
+        /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/ipatool20180607-60906-1xdrt0y/thinned/arm64/Payload/PDFSorter.app/PDFSorter.dSYM/Contents/Resources/DWARF/PDFSorter:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3848 0x00000000
+        Load command 0
+             cmd LC_UUID
+         cmdsize 24
+            uuid C4BC3D67-1BE5-3E01-BDD4-706E839D2EC3
+        Load command 1
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 4096
+           nsyms 3417
+          stroff 58768
+         strsize 50980
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 1192
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000080000
+          fileoff 0
+         filesize 0
+          maxprot r-x
+         initprot r-x
+           nsects 14
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x00000001000041cc
+              size 0x000000000005d908
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x0000000100061ad4
+              size 0x0000000000000c6c
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x0000000100062740
+              size 0x0000000000000a8c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x00000001000631cc
+              size 0x000000000000a1fd
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x000000010006d3c9
+              size 0x00000000000006d4
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x000000010006da9d
+              size 0x0000000000002931
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x00000001000703ce
+              size 0x000000000000bfb1
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __TEXT
+              addr 0x000000010007c380
+              size 0x00000000000008e8
+            offs
+2018-06-07 07:25:18 +0000  et 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __ustring
+           segname __TEXT
+              addr 0x000000010007cc68
+              size 0x0000000000000012
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __gcc_except_tab
+           segname __TEXT
+              addr 0x000000010007cc7c
+              size 0x0000000000001ed0
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bit_hockey
+           segname __TEXT
+              addr 0x000000010007eb4c
+              size 0x0000000000000021
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bit_ios
+           segname __TEXT
+              addr 0x000000010007eb6d
+              size 0x0000000000000021
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x000000010007eb90
+              size 0x0000000000001438
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __eh_frame
+           segname __TEXT
+              addr 0x000000010007ffc8
+              size 0x0000000000000034
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 1512
+          segname __DATA
+           vmaddr 0x0000000100080000
+           vmsize 0x0000000000024000
+          fileoff 0
+         filesize 0
+          maxprot rw-
+         initprot rw-
+           nsects 18
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100080000
+              size 0x0000000000000220
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 265 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100080220
+              size 0x0000000000000848
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 333 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __mod_init_func
+           segname __DATA
+              addr 0x0000000100080a68
+              size 0x0000000000000018
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_MOD_INIT_FUNC_POINTERS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __DATA
+              addr 0x0000000100080a80
+              size 0x0000000000005c40
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x00000001000866c0
+              size 0x00000
+2018-06-07 07:25:18 +0000  00000005f60
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x000000010008c620
+              size 0x0000000000000220
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_catlist
+           segname __DATA
+              addr 0x000000010008c840
+              size 0x0000000000000010
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x000000010008c850
+              size 0x0000000000000058
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x000000010008c8a8
+              size 0x0000000000000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x000000010008c8b0
+              size 0x0000000000010c48
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x000000010009d4f8
+              size 0x0000000000002848
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x000000010009fd40
+              size 0x0000000000000408
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x00000001000a0148
+              size 0x00000000000001e0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x00000001000a0328
+              size 0x000000000000066c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x00000001000a0998
+              size 0x0000000000001540
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x00000001000a1ee0
+              size 0x0000000000000580
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x00000001000a2460
+              size 0x
+2018-06-07 07:25:18 +0000  0000000000000028
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x00000001000a2488
+              size 0x0000000000000351
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 5
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x00000001000a4000
+           vmsize 0x000000000001a000
+          fileoff 4096
+         filesize 105652
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 6
+              cmd LC_SEGMENT_64
+          cmdsize 952
+          segname __DWARF
+           vmaddr 0x00000001000be000
+           vmsize 0x0000000000036000
+          fileoff 110592
+         filesize 219990
+          maxprot rwx
+         initprot rw-
+           nsects 11
+            flags (none)
+        Section
+          sectname __debug_line
+           segname __DWARF
+              addr 0x00000001000be000
+              size 0x00000000000120c0
+            offset 110592
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_pubnames
+           segname __DWARF
+              addr 0x00000001000d00c0
+              size 0x00000000000088af
+            offset 184512
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_aranges
+           segname __DWARF
+              addr 0x00000001000d896f
+              size 0x0000000000000960
+            offset 219503
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_info
+           segname __DWARF
+              addr 0x00000001000d92cf
+              size 0x000000000000abe1
+            offset 221903
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_ranges
+           segname __DWARF
+              addr 0x00000001000e3eb0
+              size 0x00000000000005f0
+            offset 265904
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_abbrev
+           segname __DWARF
+              addr 0x00000001000e44a0
+              size 0x000000000000014a
+            offset 267424
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_str
+           segname __DWARF
+              addr 0x00000001000e45ea
+              size 0x00000000000059bc
+            offset 267754
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_names
+           segname __DWARF
+              addr 0x00000001000e9fa6
+              size 0x0000000000009b38
+            offset 290726
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_namespac
+           segname __DWARF
+              addr 0x00000001000f3ade
+              size 0x0000000000000024
+            offse
+2018-06-07 07:25:18 +0000  t 330462
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_types
+           segname __DWARF
+              addr 0x00000001000f3b02
+              size 0x0000000000000030
+            offset 330498
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_objc
+           segname __DWARF
+              addr 0x00000001000f3b32
+              size 0x0000000000000024
+            offset 330546
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+    
+    Stderr:
+2018-06-07 07:25:18 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/IDEIPAProcessor.AppThinning.Rpo/universal
+  Copying PDFSorter.app output payload directory
+2018-06-07 07:25:18 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-06-07 07:25:18 +0000    Copying .dSYM files to /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/IDEIPAProcessor.AppThinning.Rpo/universal/dSYMs
+  Copying .symbols files to /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/IDEIPAProcessor.AppThinning.Rpo/universal/Symbols
+2018-06-07 07:25:18 +0000  
+2018-06-07 07:25:18 +0000  
+2018-06-07 07:25:18 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2018-06-07 07:25:18 +0000  2018-06-07 07:25:18 +0000  
+
+2018-06-07 07:25:18 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2887;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app/Assets.car"
+    );
+    universalIPA =     {
+        path = "/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/IDEIPAProcessor.AppThinning.Rpo/universal";
+    };
+}
+2018-06-07 07:25:18 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-06-07 07:25:18 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-06-07 07:25:18 +0000  Processing step: IDEDistributionSymbolsStep
+2018-06-07 07:25:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-07 07:25:18 +0000  Processing step: IDEDistributionAppThinningStep
+2018-06-07 07:25:18 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-06-07 07:25:18 +0000  Processing step: IDEDistributionODRStep
+2018-06-07 07:25:18 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-06-07 07:25:18 +0000  Running /usr/bin/xattr '-crs' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app'
+2018-06-07 07:25:18 +0000  2018-06-07 07:25:18 +0000  
+
+2018-06-07 07:25:18 +0000  /usr/bin/xattr exited with 0
+2018-06-07 07:25:18 +0000  
+2018-06-07 07:25:18 +0000  Processing step: IDEDistributionCodesignStep
+2018-06-07 07:25:18 +0000  Entitlements for <IDEDistributionItem: 0x7f895a883dc0 'com.PDFSorter' '<DVTFilePath:0x7f8955774d10:'/Users/anna/Library/Developer/Xcode/Archives/2018-06-07/PDFSorter 6-7-18, 12.23 AM.xcarchive/Products/Applications/PDFSorter.app'>'>: {
+    "application-identifier" = "A35BTEKDJ3.com.PDFSorter";
+    "com.apple.developer.team-identifier" = A35BTEKDJ3;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "A35BTEKDJ3.com.PDFSorter"
+    );
+}
+2018-06-07 07:25:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7f895a883dc0 'com.PDFSorter' '<DVTFilePath:0x7f8955774d10:'/Users/anna/Library/Developer/Xcode/Archives/2018-06-07/PDFSorter 6-7-18, 12.23 AM.xcarchive/Products/Applications/PDFSorter.app'>'> to: /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/entitlementsoE00l0
+2018-06-07 07:25:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AE26EF045CFCBC751B0D1DF394EFCD12F2E8CAAE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/entitlementsoE00l0' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app'
+2018-06-07 07:25:23 +0000  /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root/Payload/PDFSorter.app: signed app bundle with Mach-O thin (arm64) [com.PDFSorter]
+2018-06-07 07:25:23 +0000  
+2018-06-07 07:25:23 +0000  
+2018-06-07 07:25:23 +0000  /usr/bin/codesign exited with 0
+2018-06-07 07:25:23 +0000  2018-06-07 07:25:23 +0000  
+2018-06-07 07:25:23 +0000  Processing step: IDEDistributionStreamingZipItemStep
+
+2018-06-07 07:25:23 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-07 07:25:23 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-06-07 07:25:23 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root' '/var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Packages/PDFSorter.ipa'
+2018-06-07 07:25:23 +0000  >>> Copying /var/folders/wz/v_lrgf5n05bf1z0mcqsl13qm0000gn/T/XcodeDistPipeline.gfL/Root 
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/de.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  7558 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/de.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied@2x.png ... 
+2018-06-07 07:25:23 +0000  3139 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied@2x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  5215 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  5902 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDelete.png ... 
+2018-06-07 07:25:23 +0000  690 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDelete.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/fa.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  157 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/fa.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png ... 
+2018-06-07 07:25:23 +0000  1675 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegular@2x.png ... 
+2018-06-07 07:25:23 +0000  835 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegular@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDelete@2x.png ... 
+2018-06-07 07:25:23 +0000  1247 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDelete@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/en.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  5740 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/en.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle@2x.png ... 
+284 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Ok.png ... 
+151 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Ok.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle@3x.png ... 
+404 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle@3x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png ... 
+2018-06-07 07:25:23 +0000  1790 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png ... 
+2018-06-07 07:25:23 +0000  794 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/nb.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  6964 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/nb.lproj/HockeySDK.strings
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/es.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  7732 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/es.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied@3x.png ... 
+2018-06-07 07:25:23 +0000  4657 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied@3x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/it.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  6473 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/it.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Ok@2x.png ... 
+2018-06-07 07:25:23 +0000  301 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Ok@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png ... 
+2018-06-07 07:25:23 +0000  1027 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel@3x.png ... 
+319 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel@3x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/AppIconPlaceHolder.png ... 
+10035 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/AppIconPlaceHolder.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel.png ... 
+122 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow@2x.png ... 
+2018-06-07 07:25:23 +0000  542 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Blur.png ... 
+114 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Blur.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle.png ... 
+127 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Rectangle.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/iconCamera@2x.png ... 
+375 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/iconCamera@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow.png ... 
+240 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow@3x.png ... 
+709 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Arrow@3x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel@2x.png ... 
+237 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Cancel@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Ok@3x.png ... 
+2018-06-07 07:25:23 +0000  382 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Ok@3x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity~ipad.png ... 
+1065 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity~ipad.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings ... 
+8591 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/IconGradient.png ... 
+2018-06-07 07:25:23 +0000  896 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/IconGradient.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@2x.png ... 
+2018-06-07 07:25:23 +0000  969 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity.png ... 
+2018-06-07 07:25:23 +0000  334 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/tr.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  7710 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/tr.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Blur@3x.png ... 
+256 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Blur@3x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Blur@2x.png ... 
+2018-06-07 07:25:23 +0000  135 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Blur@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@3x.png ... 
+1327 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/feedbackActivity@3x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegular.png ... 
+462 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegular.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png ... 
+2018-06-07 07:25:23 +0000  1530 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  7901 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  8127 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/FeedbackPlaceholder.png ... 
+2018-06-07 07:25:23 +0000  11196 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/FeedbackPlaceholder.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/nl.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  6236 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/nl.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  7306 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  7799 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/Info.plist ... 
+2018-06-07 07:25:23 +0000  898 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/Info.plist
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/iconCamera.png ... 
+2018-06-07 07:25:23 +0000  264 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/iconCamera.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings ... 
+2018-06-07 07:25:23 +0000  7826 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/IconGradient@2x.png ... 
+2018-06-07 07:25:23 +0000  1489 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/IconGradient@2x.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/bg.png ... 
+499 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/bg.png
+copying file ./Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied.png ... 
+1625 bytes for ./Payload/PDFSorter.app/HockeySDKResources.bundle/authorize_denied.png
+copying file ./Payload/PDFSorter.app/_CodeSignature/CodeResources ... 
+2018-06-07 07:25:23 +0000  34017 bytes for ./Payload/PDFSorter.app/_CodeSignature/CodeResources
+copying file ./Payload/PDFSorter.app/LaunchImage-1100-Portrait-2436h@3x.png ... 
+2018-06-07 07:25:23 +0000  250577 bytes for ./Payload/PDFSorter.app/LaunchImage-1100-Portrait-2436h@3x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage@2x.png ... 
+2018-06-07 07:25:23 +0000  62484 bytes for ./Payload/PDFSorter.app/LaunchImage@2x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-568h@2x.png ... 
+2018-06-07 07:25:23 +0000  64613 bytes for ./Payload/PDFSorter.app/LaunchImage-568h@2x.png
+copying file ./Payload/PDFSorter.app/AppIcon60x60@2x.png ... 
+2018-06-07 07:25:23 +0000  11287 bytes for ./Payload/PDFSorter.app/AppIcon60x60@2x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/adobe.jpeg ... 
+2018-06-07 07:25:23 +0000  138864 bytes for ./Payload/PDFSorter.app/adobe.jpeg
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-1100-Landscape-2436h@3x.png ... 
+2018-06-07 07:25:23 +0000  292483 bytes for ./Payload/PDFSorter.app/LaunchImage-1100-Landscape-2436h@3x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-800-667h@2x.png ... 
+2018-06-07 07:25:23 +0000  87518 bytes for ./Payload/PDFSorter.app/LaunchImage-800-667h@2x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-Portrait@2x~ipad.png ... 
+2018-06-07 07:25:23 +0000  301122 bytes for ./Payload/PDFSorter.app/LaunchImage-Portrait@2x~ipad.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-Portrait~ipad.png ... 
+2018-06-07 07:25:23 +0000  88193 bytes for ./Payload/PDFSorter.app/LaunchImage-Portrait~ipad.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Payload/PDFSorter.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1136 bytes for ./Payload/PDFSorter.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/PDFSorter.app/Base.lproj/Main.storyboardc/Info.plist
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-06-07 07:25:23 +0000  1247 bytes for ./Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-06-07 07:25:23 +0000  832 bytes for ./Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-06-07 07:25:23 +0000  258 bytes for ./Payload/PDFSorter.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/PDFSorter.app/PDFSorter.momd/VersionInfo.plist ... 
+2018-06-07 07:25:23 +0000  155 bytes for ./Payload/PDFSorter.app/PDFSorter.momd/VersionInfo.plist
+copying file ./Payload/PDFSorter.app/PDFSorter.momd/PDFSorter.omo ... 
+2018-06-07 07:25:23 +0000  696 bytes for ./Payload/PDFSorter.app/PDFSorter.momd/PDFSorter.omo
+copying file ./Payload/PDFSorter.app/PDFSorter.momd/PDFSorter.mom ... 
+2018-06-07 07:25:23 +0000  513 bytes for ./Payload/PDFSorter.app/PDFSorter.momd/PDFSorter.mom
+copying file ./Payload/PDFSorter.app/LaunchImage-Landscape~ipad.png ... 
+2018-06-07 07:25:23 +0000  91946 bytes for ./Payload/PDFSorter.app/LaunchImage-Landscape~ipad.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-700-Portrait~ipad.png ... 
+2018-06-07 07:25:23 +0000  88193 bytes for ./Payload/PDFSorter.app/LaunchImage-700-Portrait~ipad.png
+copying file ./Payload/PDFSorter.app/Assets.car ... 
+2018-06-07 07:25:23 +0000  559752 bytes for ./Payload/PDFSorter.app/Assets.car
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/AppIcon76x76@2x~ipad.png ... 
+2018-06-07 07:25:23 +0000  16529 bytes for ./Payload/PDFSorter.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/PDFSorter.app/LaunchImage-800-Portrait-736h@3x.png ... 
+2018-06-07 07:25:23 +0000  197435 bytes for ./Payload/PDFSorter.app/LaunchImage-800-Portrait-736h@3x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-700@2x.png ... 
+2018-06-07 07:25:23 +0000  62484 bytes for ./Payload/PDFSorter.app/LaunchImage-700@2x.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/LaunchImage-700-568h@2x.png ... 
+2018-06-07 07:25:23 +0000  64613 bytes for ./Payload/PDFSorter.app/LaunchImage-700-568h@2x.png
+copying file ./Payload/PDFSorter.app/LaunchImage-Landscape@2x~ipad.png ... 
+2018-06-07 07:25:23 +0000  323752 bytes for ./Payload/PDFSorter.app/LaunchImage-Landscape@2x~ipad.png
+2018-06-07 07:25:23 +0000  copying file ./Payload/PDFSorter.app/acrobat.png ... 
+2567 bytes for ./Payload/PDFSorter.app/acrobat.png
+copying file ./Payload/PDFSorter.app/LaunchImage-700-Landscape@2x~ipad.png ... 
+2018-06-07 07:25:23 +0000  323752 bytes for ./Payload/PDFSorter.app/LaunchImage-700-Landscape@2x~ipad.png
+copying file ./Payload/PDFSorter.app/LaunchImage.png ... 
+2018-06-07 07:25:23 +0000  18316 bytes for ./Payload/PDFSorter.app/LaunchImage.png
+copying file ./Payload/PDFSorter.app/embedded.mobileprovision ... 
+2018-06-07 07:25:23 +0000  9550 bytes for ./Payload/PDFSorter.app/embedded.mobileprovision
+copying file ./Payload/PDFSorter.app/LaunchImage-800-Landscape-736h@3x.png ... 
+2018-06-07 07:25:23 +0000  218997 bytes for ./Payload/PDFSorter.app/LaunchImage-800-Landscape-736h@3x.png
+copying file ./Payload/PDFSorter.app/LaunchImage-700-Portrait@2x~ipad.png ... 
+2018-06-07 07:25:23 +0000  301122 bytes for ./Payload/PDFSorter.app/LaunchImage-700-Portrait@2x~ipad.png
+copying file ./Payload/PDFSorter.app/LaunchImage-700-Landscape~ipad.png ... 
+2018-06-07 07:25:23 +0000  91946 bytes for ./Payload/PDFSorter.app/LaunchImage-700-Landscape~ipad.png
+copying file ./Payload/PDFSorter.app/PDFSorter ... 
+2018-06-07 07:25:23 +0000  741408 bytes for ./Payload/PDFSorter.app/PDFSorter
+copying file ./Payload/PDFSorter.app/Info.plist ... 
+2018-06-07 07:25:23 +0000  6145 bytes for ./Payload/PDFSorter.app/Info.plist
+copying file ./Payload/PDFSorter.app/PkgInfo ... 
+2018-06-07 07:25:23 +0000  8 bytes for ./Payload/PDFSorter.app/PkgInfo
+2018-06-07 07:25:23 +0000  
+2018-06-07 07:25:23 +0000  2018-06-07 07:25:23 +0000  /usr/bin/ditto exited with 0
+
+2018-06-07 07:25:23 +0000  
+2018-06-07 07:25:23 +0000  2018-06-07 07:25:23 +0000  Processing step: IDEDistributionCreateManifestStep
+

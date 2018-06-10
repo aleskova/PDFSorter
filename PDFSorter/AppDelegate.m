@@ -6,7 +6,9 @@
 //  Copyright © 2018 Anna Leskova. All rights reserved.
 //
 
+@import HockeySDK;
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"58e3f5d465c044f4845630502d35c985"];
+    // Do some additional configuration if needed here
+    [[BITHockeyManager sharedHockeyManager] startManager];
+    [[BITHockeyManager sharedHockeyManager].authenticator
+     authenticateInstallation];
+
+    self.window = UIWindow.new;
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:ViewController.new];
+    
     return YES;
 }
 

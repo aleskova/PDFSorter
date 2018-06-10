@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <PDFKit/PDFKit.h>
 
-@interface ViewController (PDFViewController)
+@interface PDFViewController : ViewController
+@property (strong, nonatomic) PDFView *selctedPDF;
 
 @end

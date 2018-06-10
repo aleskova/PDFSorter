@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95D98FF520BF5ABA004E3EFA /* PDFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D98FF420BF5ABA004E3EFA /* PDFCell.m */; };
+		95D9900420C0B621004E3EFA /* PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9900320C0B621004E3EFA /* PDF.m */; };
+		95D9900E20C5D0F5004E3EFA /* AdobeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9900D20C5D0F5004E3EFA /* AdobeColors.m */; };
+		95E63EE620C7A7F00090C9F5 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E63EE520C7A7F00090C9F5 /* PDFViewController.m */; };
+		95E63EEE20C867A20090C9F5 /* acrobat.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E63EED20C867A20090C9F5 /* acrobat.png */; };
+		95E63EFE20C886730090C9F5 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95E63EFC20C886720090C9F5 /* HockeySDKResources.bundle */; };
+		95E63EFF20C886730090C9F5 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E63EFD20C886720090C9F5 /* HockeySDK.framework */; };
 		95E7C75420BF4584009D3B52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E7C75320BF4584009D3B52 /* AppDelegate.m */; };
 		95E7C75720BF4585009D3B52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E7C75620BF4585009D3B52 /* ViewController.m */; };
 		95E7C75A20BF4585009D3B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E7C75820BF4585009D3B52 /* Main.storyboard */; };
@@ -17,6 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95D98FF320BF5ABA004E3EFA /* PDFCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFCell.h; sourceTree = "<group>"; };
+		95D98FF420BF5ABA004E3EFA /* PDFCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFCell.m; sourceTree = "<group>"; };
+		95D9900220C0B621004E3EFA /* PDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDF.h; sourceTree = "<group>"; };
+		95D9900320C0B621004E3EFA /* PDF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDF.m; sourceTree = "<group>"; };
+		95D9900C20C5D0F5004E3EFA /* AdobeColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdobeColors.h; sourceTree = "<group>"; };
+		95D9900D20C5D0F5004E3EFA /* AdobeColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdobeColors.m; sourceTree = "<group>"; };
+		95E63EE420C7A7F00090C9F5 /* PDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		95E63EE520C7A7F00090C9F5 /* PDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		95E63EED20C867A20090C9F5 /* acrobat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acrobat.png; sourceTree = "<group>"; };
+		95E63EFC20C886720090C9F5 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		95E63EFD20C886720090C9F5 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
 		95E7C74F20BF4584009D3B52 /* PDFSorter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFSorter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E7C75220BF4584009D3B52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95E7C75320BF4584009D3B52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E63EFF20C886730090C9F5 /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95E63EF120C87B5D0090C9F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95E63EFB20C886720090C9F5 /* HockeySDK.embeddedframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95E63EFB20C886720090C9F5 /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				95E63EFC20C886720090C9F5 /* HockeySDKResources.bundle */,
+				95E63EFD20C886720090C9F5 /* HockeySDK.framework */,
+			);
+			name = HockeySDK.embeddedframework;
+			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
+			sourceTree = "<group>";
+		};
 		95E7C74620BF4584009D3B52 = {
 			isa = PBXGroup;
 			children = (
 				95E7C75120BF4584009D3B52 /* PDFSorter */,
 				95E7C75020BF4584009D3B52 /* Products */,
+				95E63EF120C87B5D0090C9F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,16 +98,25 @@
 		95E7C75120BF4584009D3B52 /* PDFSorter */ = {
 			isa = PBXGroup;
 			children = (
+				95E63EED20C867A20090C9F5 /* acrobat.png */,
 				95E7C75220BF4584009D3B52 /* AppDelegate.h */,
 				95E7C75320BF4584009D3B52 /* AppDelegate.m */,
 				95E7C75520BF4584009D3B52 /* ViewController.h */,
 				95E7C75620BF4585009D3B52 /* ViewController.m */,
+				95D9900220C0B621004E3EFA /* PDF.h */,
+				95D9900320C0B621004E3EFA /* PDF.m */,
+				95D98FF320BF5ABA004E3EFA /* PDFCell.h */,
+				95D98FF420BF5ABA004E3EFA /* PDFCell.m */,
 				95E7C75820BF4585009D3B52 /* Main.storyboard */,
 				95E7C75E20BF4587009D3B52 /* Assets.xcassets */,
 				95E7C76020BF4587009D3B52 /* LaunchScreen.storyboard */,
 				95E7C76320BF4587009D3B52 /* Info.plist */,
 				95E7C76420BF4587009D3B52 /* main.m */,
 				95E7C75B20BF4585009D3B52 /* PDFSorter.xcdatamodeld */,
+				95D9900C20C5D0F5004E3EFA /* AdobeColors.h */,
+				95D9900D20C5D0F5004E3EFA /* AdobeColors.m */,
+				95E63EE420C7A7F00090C9F5 /* PDFViewController.h */,
+				95E63EE520C7A7F00090C9F5 /* PDFViewController.m */,
 			);
 			path = PDFSorter;
 			sourceTree = "<group>";
@@ -84,6 +131,7 @@
 				95E7C74B20BF4584009D3B52 /* Sources */,
 				95E7C74C20BF4584009D3B52 /* Frameworks */,
 				95E7C74D20BF4584009D3B52 /* Resources */,
+				95EDBC1F20C982C800930004 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -131,7 +179,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E63EEE20C867A20090C9F5 /* acrobat.png in Resources */,
 				95E7C76220BF4587009D3B52 /* LaunchScreen.storyboard in Resources */,
+				95E63EFE20C886730090C9F5 /* HockeySDKResources.bundle in Resources */,
 				95E7C75F20BF4587009D3B52 /* Assets.xcassets in Resources */,
 				95E7C75A20BF4585009D3B52 /* Main.storyboard in Resources */,
 			);
@@ -139,12 +189,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		95EDBC1F20C982C800930004 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95E7C74B20BF4584009D3B52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E63EE620C7A7F00090C9F5 /* PDFViewController.m in Sources */,
+				95D9900420C0B621004E3EFA /* PDF.m in Sources */,
+				95D98FF520BF5ABA004E3EFA /* PDFCell.m in Sources */,
 				95E7C75720BF4585009D3B52 /* ViewController.m in Sources */,
+				95D9900E20C5D0F5004E3EFA /* AdobeColors.m in Sources */,
 				95E7C75D20BF4585009D3B52 /* PDFSorter.xcdatamodeld in Sources */,
 				95E7C76520BF4587009D3B52 /* main.m in Sources */,
 				95E7C75420BF4584009D3B52 /* AppDelegate.m in Sources */,
@@ -224,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -276,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -287,13 +357,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = PDFSorter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aleskova.PDFSorter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PDFSorter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,13 +380,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = PDFSorter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aleskova.PDFSorter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PDFSorter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

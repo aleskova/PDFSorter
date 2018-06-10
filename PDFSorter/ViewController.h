@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property (strong, nonatomic) UIButton *menu;
+- (void) showMenu;
+@property (strong, nonatomic) UITableView *tableView;
+@property (strong, nonatomic) UITableView *menuTable;
+@property (strong, nonatomic) UITableView *sortByTable;
+@property (strong, nonatomic) UISegmentedControl *sortBy;
 
 @end
-
